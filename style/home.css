@@ -21,9 +21,21 @@ a {
     background-image: url("../Images/car-removebg-preview.jpg");
     background-color: #EEA1EB; 
     margin-top: 0;
+    background-repeat: no-repeat;
     
   }
   .filter{
     backdrop-filter: blur(8px) saturate(0.5) ;
+    z-index: 20;
   }
+.test{
+  position: relative;
+}
 
+.test_svg{
+  position: absolute;
+  top: 5px;
+  left: 60%;
+  mix-blend-mode:lighten;
+  
+}
