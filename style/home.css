@@ -39,3 +39,8 @@ a {
   mix-blend-mode:lighten;
   
 }
+.svg-animate{
+  height:100vh;
+  width: 100vw;
+}
+      
